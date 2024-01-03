@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+
+</head>
+
+<body>
+    <main class="conteudo">
+        <div class="info">
+            <h1 class="titulo">FICOU COM DÚVIDA? <br>NOS MANDE UMA MENSAGEM!</h1>
+
+            <p class="subtitulo">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                contato em menos de
+                24h.</p>
+        </div>
+
+        <div class="container">
+            <form action="index.html" method="dialog">
+
+                <input type="text" name="nome-completo"  id="nome-completo-id" class="nome-completo obrigatorio input" placeholder="Nome completo *" autocomplete="off" value="">
+
+                <label for="nome-completo-id" class="label">campo obrigatório</label>
+
+                
+                <input type="text" id="email-usuario" name="email" class="email obrigatorio input" placeholder="Email *" autocomplete="off" value="">
+
+                <label for="email-usuario" class="label">campo obrigatório</label>
+
+                
+                <input type="text" id="tel" name="telefone" class="telefone obrigatorio input" placeholder="Telefone *" autocomplete="off" value="">
+                <label for="tel" class="label">campo obrigatório</label>
+
+
+                
+                <textarea name="mensagem" id="men" cols="30" rows="7" class=" mensagem input obrigatorio" placeholder="Mensagem *"></textarea>
+                <label for="men" class="label">campo obrigatório</label>
+
+
+                
+                
+                <span>*campos obrigatórios</span>
+
+                <input type="submit" class="botao" value="Enviar">
+            </form>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

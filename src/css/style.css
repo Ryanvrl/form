@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteudo {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/bg-repeat.jpg);
+    gap: 60px;   
+}
+
+.info {
+    color: #fff;
+    width: 287px;
+}
+
+.info .titulo {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.info .subtitulo {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.container {
+    background-color: #fff;
+    width: 340px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.container form {
+    height: 100%;
+}
+
+.container .input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+    color: #A8A8A8;
+ }
+
+ .input-none {
+    display: none;
+ }
+
+ .input.mensagem {
+    resize: none;
+    height: 100px;
+    margin-bottom: 0;
+ }
+
+ .container span {
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: block;
+    margin: 5px 0 20px 0;
+ }
+
+ .botao {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #3CCC87;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+ }
+
+ .nao-preenchido {
+    border: 1px solid  #F52E2E;
+ }
+
+ .preenchido {
+    border: 1px solid #00C22B;  
+ }
+
+.label {
+    display: none;
+}
+
+.incompleto {
+    display: block;
+    color: #F52E2E;
+ }
+
+
+
+ 
